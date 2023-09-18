@@ -1,0 +1,53 @@
+# Oops concepts, or object-oriented programming concepts, are fundamental
+ principles in Python (and other programming languages) that help in organizing and
+  structuring code for better reusability, maintainability, and modularity. Python 
+  is an object-oriented programming (OOP) language, and it supports the following OOP
+  concepts:
+
+# Classes: Classes are blueprints or templates for creating objects. 
+They define the properties (attributes) and behaviors (methods) that objects
+ of that class can have.
+
+# Objects: Objects are instances of a class. They represent individual entities
+ with their own unique states and behaviors.
+
+# Encapsulation: Encapsulation is the process of bundling data (attributes) and 
+methods (functions) together within a class. It helps in hiding the internal 
+implementation details and provides access to the data through well-defined 
+interfaces.
+
+# Inheritance: Inheritance allows a class to inherit properties and behaviors 
+from another class, known as the parent or base class. It promotes code reuse 
+and facilitates the creation of a hierarchy of classes.
+
+# Polymorphism: Polymorphism means the ability of an object to take on many 
+forms. In Python, polymorphism is achieved through method overriding and method
+ overloading.
+
+Method overriding allows a subclass to provide a different
+ implementation of a method that is already defined in its parent class, 
+ while method overloading allows a class to have multiple methods with the 
+ same name but different parameters.
+ 
+Method Overloading:
+Method overloading allows a class to have multiple methods with the same 
+name but different parameters. The appropriate method is selected based on 
+the number, types, or order of the parameters. However, Python does not support
+ method overloading in the same way as some other programming languages like 
+ Java or C++.
+
+Method overriding occurs when a subclass provides a different implementation
+ of a method that is already defined in its parent class. The method in the 
+ subclass must have the same name and compatible parameters as the method in 
+ the parent class.
+
+
+# Abstraction: Abstraction involves creating abstract classes or 
+interfaces that define a common set of methods that derived classes
+ must implement. It helps in providing a simplified view of complex 
+ systems by hiding unnecessary details.
+
+# Composition: Composition is a way of building complex objects by 
+combining simpler objects or components. It allows objects to contain
+ other objects as part of their internal structure, promoting code reuse
+  and flexibility.
